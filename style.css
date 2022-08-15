@@ -1,0 +1,195 @@
+body
+{
+    height: 100%;
+    /* margin: 0; */
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+} 
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+
+h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a,#secondary-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7BE;
+}
+
+#main-text
+{
+    font-size: 48px;
+    color:#F9FAF8;
+}
+
+.content1
+{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.content2
+{
+  display: flex; 
+  align-items: center; 
+
+}
+
+img{
+    width: 50%;
+    margin-right: -3%;
+}
+
+.btn
+{
+    background-color: #3882F6;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.image-group
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 2%;
+}
+
+.title
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.image
+{
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.image-container
+{
+    display: flex;
+    gap: 50px;
+}
+
+.h-cont
+{
+    margin-top: 2%;
+}
+
+.image-x
+{
+    width: 150px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #1F2937;
+    /* font-weight: bold; */
+}
+
+.quotes
+{
+    background-color: #E5E7EB;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* padding: 20%; */
+}
+
+.quotes-text
+{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin:0% 28%;
+    padding: 2% 0%;
+}
+
+.quotes-name
+{
+    margin:0 28%;
+    color: #1f2937;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.action
+{
+    background-color: #3882F6;
+    margin: 5% 20% 0% 20%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+p{
+    margin: 0;
+}
+
+.one{
+   font-size: 18px;
+   font-weight: bold;
+   color: #F9FAF8;
+}
+.two
+{
+    color: #F9FAF8;
+}
+.signUp
+{
+    border: 1px solid #E5E7BE;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5e7be;
+    font-size: 18px;
+
+}
+
+.footer
+{
+    background-color: #1F2937;
+    color: #E5E7BE;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
